@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML lang="en">
+<head>
+    <title>关于</title>
+    <!--<title>time</title>-->
+</head>
+<body>
+    <center><h1>hello</h1></center>
+    {% block content %}{% endblock %}
+    {% block footer %}
+    <hr>
+    <p>Thanks for visiting my site.</p>
+    <p>{{ current_date}}</p>
+    {% endblock %}
+</body>
+</html>
