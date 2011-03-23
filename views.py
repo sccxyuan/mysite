@@ -58,7 +58,8 @@ def current_datetime(request):
   #t=get_template('current_datetime.html')
   #html=t.render(Context({'current_date':now}))
   #return HttpResponse(html)
-
+def jianli(request):
+    return render_to_response('jianli.html')
 def search_form(request):
     return render_to_response('search_form.html')
 def search(request):
